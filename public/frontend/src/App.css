@@ -1,0 +1,17 @@
+
+.react-chatbot-kit-chat-container {
+    width:500px;
+    flex:1
+}
+
+.react-chatbot-kit-chat-bot-message, .chatbot-loader-container {
+
+    width: auto;
+}
+
+.react-chatbot-kit-chat-inner-container{
+}
+
+.react-chatbot-kit-chat-message-container{
+
+}
