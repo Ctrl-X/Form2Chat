@@ -13,14 +13,8 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `npx cdk diff`    compare deployed stack with current state
 * `npx cdk synth`   emits the synthesized CloudFormation template
 
-
+## Using SAM locally ?
+```
 cdk synth --no-staging > template.yaml
-
 sam local start-api --warm-containers EAGER
-
-http://127.0.0.1:3000
-
-Error: Running AWS SAM projects locally requires Docker. Have you got it installed and running?
-soluce  
-export DOCKER_HOST=unix://$HOME/.docker/run/docker.sock
-
+```
